@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npranav2007/Exam-Controlling-System.git"
+  },
+  "author": "Pranav Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npranav2007/Exam-Controlling-System/issues"
+  },
+  "homepage": "https://github.com/npranav2007/Exam-Controlling-System#readme",
+  "description": ""
+}
