@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
   const abc = " ";
 
   return (
-    <div className="bg-white place-self-center w-3/12 p-7 min-h-[400px] rounded-xl">
+    <div className="bg-white w-full max-w-md p-7 min-h-[400px] rounded-xl shadow-lg">
       <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
         Sign In
       </h2>
@@ -49,12 +50,12 @@ const SignIn = () => {
         <div>
           <p className="mt-4 text-center text-sm text-gray-600">
             Don't have an account?{abc}
-            <a
-              href="#"
+            <Link
+              to="/signup"
               className="hover:underline hover:text-blue-600 font-medium"
             >
               Sign Up
-            </a>
+            </Link>
           </p>
         </div>
       </form>
