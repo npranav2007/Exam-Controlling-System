@@ -67,14 +67,14 @@ const ForgotPassword: React.FC = () => {
         <div className="flex items-center justify-between">
           <button
             type="submit"
-            className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
+            className={`bg-[#ff9900] hover:bg-[#eb5e07] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
             disabled={isLoading}
           >
             {isLoading ? 'Sending...' : 'Send OTP'}
           </button>
           <Link
             to="/signin"
-            className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+            className="inline-block align-baseline font-bold text-sm text-gray-950 hover:text-blue-800"
           >
             Back to Sign In
           </Link>
@@ -85,7 +85,7 @@ const ForgotPassword: React.FC = () => {
         <div className="mt-4 text-center">
           <Link
             to="/reset-password"
-            className="font-bold text-sm text-blue-500 hover:text-blue-800"
+            className="font-bold text-sm text-gray-950 hover:text-blue-800"
           >
             Proceed to Reset Password
           </Link>

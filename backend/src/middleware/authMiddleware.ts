@@ -22,7 +22,7 @@ export const protect = async (req: Request, res: Response, next: NextFunction): 
     }
 
     // Verify token
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key') as JwtPayload;
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || '29hsaUJqhyk+f0GynXLHxFcc6SyTLQNhhLSzd5n9Ov7Wdit0ntoeBeBJ4H6gucsF') as JwtPayload;
 
     // Get user from token
     const user = await User.findById(decoded.id).select('-password');
